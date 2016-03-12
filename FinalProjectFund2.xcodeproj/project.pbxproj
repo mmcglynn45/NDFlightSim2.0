@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1485C3F1170665A000CA8C6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1485C3F0170665A000CA8C6E /* main.cpp */; };
-		1485C3F3170665A000CA8C6E /* FinalProjectFund2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1485C3F2170665A000CA8C6E /* FinalProjectFund2.1 */; };
+		1413512B17066A5F005771FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1413512017066A5F005771FE /* main.cpp */; };
+		1485C4011706670500CA8C6E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1485C4001706670500CA8C6E /* OpenGL.framework */; };
+		1485C4031706670D00CA8C6E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1485C4021706670D00CA8C6E /* GLUT.framework */; };
+		14BCED3917066C6700A3C4DC /* TerrainTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14BCED3717066C6700A3C4DC /* TerrainTile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +20,33 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				1485C3F3170665A000CA8C6E /* FinalProjectFund2.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1413512017066A5F005771FE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1413512117066A5F005771FE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1413512317066A5F005771FE /* TerrainTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerrainTile.h; sourceTree = "<group>"; };
+		14220A14172F9B520086C658 /* Missile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Missile.h; sourceTree = "<group>"; };
+		14220A16173058760086C658 /* Collision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+		14220A191730B8510086C658 /* Particle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		14220A1A1730B86D0086C658 /* ExplosionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExplosionManager.h; sourceTree = "<group>"; };
+		14242B56172608B300065560 /* Carrier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Carrier.h; sourceTree = "<group>"; };
+		14242B5717272F1800065560 /* HumanPlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumanPlane.h; sourceTree = "<group>"; };
+		143FC4401709100D00CA5096 /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
 		1485C3EC170665A000CA8C6E /* FinalProjectFund2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalProjectFund2; sourceTree = BUILT_PRODUCTS_DIR; };
-		1485C3F0170665A000CA8C6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1485C3F2170665A000CA8C6E /* FinalProjectFund2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FinalProjectFund2.1; sourceTree = "<group>"; };
+		1485C4001706670500CA8C6E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1485C4021706670D00CA8C6E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		14BCED3617066C6700A3C4DC /* GraphicsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsHeader.h; sourceTree = "<group>"; };
+		14BCED3717066C6700A3C4DC /* TerrainTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TerrainTile.cpp; sourceTree = "<group>"; };
+		14BCED3817066C6700A3C4DC /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		14BCED3A17077CCB00A3C4DC /* Building.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		14BCED3E1707BF1C00A3C4DC /* Plane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		14CFEB621714A66700CA59B6 /* ComputerPlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerPlane.h; sourceTree = "<group>"; };
+		14CFEB6417161C2300CA59B6 /* Explosion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		2D4CA6661C94CC560000F1D6 /* Silo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Silo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,16 +54,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1485C4031706670D00CA8C6E /* GLUT.framework in Frameworks */,
+				1485C4011706670500CA8C6E /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1413511F17066A5F005771FE /* NDFlightSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CA6661C94CC560000F1D6 /* Silo.h */,
+				14220A171730B7800086C658 /* Explosions */,
+				14BCED3617066C6700A3C4DC /* GraphicsHeader.h */,
+				14BCED3717066C6700A3C4DC /* TerrainTile.cpp */,
+				14BCED3817066C6700A3C4DC /* Tree.h */,
+				1413512017066A5F005771FE /* main.cpp */,
+				14242B5717272F1800065560 /* HumanPlane.h */,
+				14220A16173058760086C658 /* Collision.h */,
+				14BCED3E1707BF1C00A3C4DC /* Plane.h */,
+				14CFEB621714A66700CA59B6 /* ComputerPlane.h */,
+				14220A14172F9B520086C658 /* Missile.h */,
+				14242B56172608B300065560 /* Carrier.h */,
+				143FC4401709100D00CA5096 /* Bullet.h */,
+				14BCED3A17077CCB00A3C4DC /* Building.h */,
+				1413512117066A5F005771FE /* README.md */,
+				1413512317066A5F005771FE /* TerrainTile.h */,
+			);
+			path = NDFlightSimulator;
+			sourceTree = "<group>";
+		};
+		14220A171730B7800086C658 /* Explosions */ = {
+			isa = PBXGroup;
+			children = (
+				14CFEB6417161C2300CA59B6 /* Explosion.h */,
+				14220A191730B8510086C658 /* Particle.h */,
+				14220A1A1730B86D0086C658 /* ExplosionManager.h */,
+			);
+			name = Explosions;
+			sourceTree = "<group>";
+		};
 		1485C3E1170665A000CA8C6E = {
 			isa = PBXGroup;
 			children = (
-				1485C3EF170665A000CA8C6E /* FinalProjectFund2 */,
+				1485C4021706670D00CA8C6E /* GLUT.framework */,
+				1485C4001706670500CA8C6E /* OpenGL.framework */,
+				1413511F17066A5F005771FE /* NDFlightSimulator */,
 				1485C3ED170665A000CA8C6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +111,6 @@
 				1485C3EC170665A000CA8C6E /* FinalProjectFund2 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1485C3EF170665A000CA8C6E /* FinalProjectFund2 */ = {
-			isa = PBXGroup;
-			children = (
-				1485C3F0170665A000CA8C6E /* main.cpp */,
-				1485C3F2170665A000CA8C6E /* FinalProjectFund2.1 */,
-			);
-			path = FinalProjectFund2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1485C3F1170665A000CA8C6E /* main.cpp in Sources */,
+				1413512B17066A5F005771FE /* main.cpp in Sources */,
+				14BCED3917066C6700A3C4DC /* TerrainTile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +258,7 @@
 				1485C3F8170665A000CA8C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
