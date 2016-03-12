@@ -36,7 +36,7 @@
 		14242B56172608B300065560 /* Carrier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Carrier.h; sourceTree = "<group>"; };
 		14242B5717272F1800065560 /* HumanPlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumanPlane.h; sourceTree = "<group>"; };
 		143FC4401709100D00CA5096 /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
-		1485C3EC170665A000CA8C6E /* FinalProjectFund2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalProjectFund2; sourceTree = BUILT_PRODUCTS_DIR; };
+		1485C3EC170665A000CA8C6E /* FlightSim2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlightSim2; sourceTree = BUILT_PRODUCTS_DIR; };
 		1485C4001706670500CA8C6E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		1485C4021706670D00CA8C6E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		14BCED3617066C6700A3C4DC /* GraphicsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsHeader.h; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		1485C3ED170665A000CA8C6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1485C3EC170665A000CA8C6E /* FinalProjectFund2 */,
+				1485C3EC170665A000CA8C6E /* FlightSim2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1485C3EB170665A000CA8C6E /* FinalProjectFund2 */ = {
+		1485C3EB170665A000CA8C6E /* FlightSim2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1485C3F6170665A000CA8C6E /* Build configuration list for PBXNativeTarget "FinalProjectFund2" */;
+			buildConfigurationList = 1485C3F6170665A000CA8C6E /* Build configuration list for PBXNativeTarget "FlightSim2" */;
 			buildPhases = (
 				1485C3E8170665A000CA8C6E /* Sources */,
 				1485C3E9170665A000CA8C6E /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = FinalProjectFund2;
+			name = FlightSim2;
 			productName = FinalProjectFund2;
-			productReference = 1485C3EC170665A000CA8C6E /* FinalProjectFund2 */;
+			productReference = 1485C3EC170665A000CA8C6E /* FlightSim2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Matt McGlynn";
 			};
-			buildConfigurationList = 1485C3E6170665A000CA8C6E /* Build configuration list for PBXProject "FinalProjectFund2" */;
+			buildConfigurationList = 1485C3E6170665A000CA8C6E /* Build configuration list for PBXProject "FlightSim2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1485C3EB170665A000CA8C6E /* FinalProjectFund2 */,
+				1485C3EB170665A000CA8C6E /* FlightSim2 */,
 			);
 		};
 /* End PBXProject section */
@@ -228,21 +228,21 @@
 		1485C3F7170665A000CA8C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FlightSim2;
 			};
 			name = Debug;
 		};
 		1485C3F8170665A000CA8C6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FlightSim2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1485C3E6170665A000CA8C6E /* Build configuration list for PBXProject "FinalProjectFund2" */ = {
+		1485C3E6170665A000CA8C6E /* Build configuration list for PBXProject "FlightSim2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1485C3F4170665A000CA8C6E /* Debug */,
@@ -251,7 +251,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1485C3F6170665A000CA8C6E /* Build configuration list for PBXNativeTarget "FinalProjectFund2" */ = {
+		1485C3F6170665A000CA8C6E /* Build configuration list for PBXNativeTarget "FlightSim2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1485C3F7170665A000CA8C6E /* Debug */,

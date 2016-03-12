@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1485C3EB170665A000CA8C6E"
-               BuildableName = "FinalProjectFund2"
-               BlueprintName = "FinalProjectFund2"
-               ReferencedContainer = "container:FinalProjectFund2.xcodeproj">
+               BuildableName = "FlightSim2"
+               BlueprintName = "FlightSim2"
+               ReferencedContainer = "container:FlightSim2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1485C3EB170665A000CA8C6E"
-            BuildableName = "FinalProjectFund2"
-            BlueprintName = "FinalProjectFund2"
-            ReferencedContainer = "container:FinalProjectFund2.xcodeproj">
+            BuildableName = "FlightSim2"
+            BlueprintName = "FlightSim2"
+            ReferencedContainer = "container:FlightSim2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1485C3EB170665A000CA8C6E"
-            BuildableName = "FinalProjectFund2"
-            BlueprintName = "FinalProjectFund2"
-            ReferencedContainer = "container:FinalProjectFund2.xcodeproj">
+            BuildableName = "FlightSim2"
+            BlueprintName = "FlightSim2"
+            ReferencedContainer = "container:FlightSim2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1485C3EB170665A000CA8C6E"
-            BuildableName = "FinalProjectFund2"
-            BlueprintName = "FinalProjectFund2"
-            ReferencedContainer = "container:FinalProjectFund2.xcodeproj">
+            BuildableName = "FlightSim2"
+            BlueprintName = "FlightSim2"
+            ReferencedContainer = "container:FlightSim2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
